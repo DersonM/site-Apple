@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+/*Color*/
+:root {
+    --white: #fafafa;
+    --blue: #1f97ff;
+    --black1: #131313;
+    --black3: #333333;
+    --gray: #d6d6d6;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white) ;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.header {
+    
+}
