@@ -211,14 +211,14 @@ a {
     color: var(--white);
     font-size: 48px;
     text-align: center;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 #h3-iphonese {
     color: var(--white);
     font-size: 24px;
     text-align: center;
     font-weight: normal;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 p {
     display: flex;
@@ -277,6 +277,9 @@ p {
     h3 {
         font-size: 18px !important;
     }
+    .produtos {
+        flex-wrap: wrap;
+    }
 }
 
 .container-iphone11 {
@@ -289,18 +292,85 @@ h1{
     color: var(--black1);
     font-size: 45px;
     text-align: center;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 h3{
     color: var(--black1);
     font-size: 24px;
     text-align: center;
     font-weight: normal;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 p {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 0px;
+}
+/* Products*/
+.produtos{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#watch-img{
+    width: 40%;
+     
+}
+.watch {
+    height: 100%;
+    margin: 0 5px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.watch-h1{
+    height: 90px;
+    background-image: url("../img/fig_watch.png");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+}
+.watch-h3 {
+    color: var(--black1);
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+#airpods-img {
+    width: 40%;
+}
+.airpods {
+    
+    height: 100%;
+    margin: 0 5px;
+    padding-top: 30px;
+    background-color: var(--black1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.airpods-h1{
+    color: var(--white);
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+.airpods-h3 {
+    color: var(--white);
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    letter-spacing: -1px;
 }
