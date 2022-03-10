@@ -245,3 +245,12 @@ p {
     opacity: 0.8;
     text-decoration: underline;
 }
+/*Iphone 11*/
+.iphone11 {
+    width: 100%;
+    height: 70vh;
+    margin: 5px 0px;
+    padding-top: 5vh;
+
+    background-image: url("../img/iphone11.png");
+}
